@@ -1,0 +1,10 @@
+@import url('https://fonts.google.com/specimen/Bai+Jamjuree');
+
+:root {
+    --font-family: 'Bai Jamjuree', sans-serif;
+    --primary-color: #363636 ;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
