@@ -5,6 +5,105 @@
     --primary-color: #363636 ;
 }
 
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+
+html {
+    background: #f8f8ff;
+}
+
+.cardfront {
+    text-align: left;
+
+}
+
+#numbercard {
+    text-align: left;
+
+}
+
+#namecard {
+    text-align: left;
+
+}
+
+.cardfront {
+    text-align: left;
+
+}
+
+#numbercard2 {
+    text-align: left;
+
+}
+
+.name {
+    text-align: left;
+
+}
+
+#information {
+    font-family: var(--font-family);
+    text-align: left;
+    margin-left: 100%;
+}
+
+#box {
+    font-family: var(--font-family);
+    text-align: left;
+    margin-left: 100%;
+}
+
+#banner {
+    width: 100%;
+
+}
+
+.cardnumber {
+    text-align: left;
+
+}
+
+.date {
+    text-align: left;
+
+}
+
+.cvc {
+    text-align: left;
+}
+
+.buttonconfirm {
+    text-align: left;
+
+}
+
+#buttonconfirm {
+    text-align: left;
+
+}
+
+.mensage {
+    text-align: left; 
+    margin-left: 00%;
+}
+
+#mensage1 {
+    text-align: left;
+    margin-left: 00%;
+}
+
+#mensage2 {
+    text-align: left;
+    margin-left: 00%;
+}
+
+.buttoncontinue {
+    text-align: left;
+    margin-left: 00%;
+}
+
+#buttoncontinue {
+    text-align: left;
+    margin-left: 00%;
+
+}
 
