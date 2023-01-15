@@ -10,56 +10,51 @@
 
 </head>
 <body>
-
-    <div class="image">
-        <img id="image-bg" src="images/bg-main-desktop.png">
-        <img id="image-cardback" src="images/bg-card-back.png">
-        <img id="image-cardfront" src="images/bg-card-front.png">
-    </div>
-
-    <div class="cardfront">
-        <p id="numbercard">0000 0000 0000 0000</p>
-        <p id="namecard">Jane Appleseed</p>
-        <p id="numbercardtwo">00/00</p>
-    </div>
-
-    <div class="cardback">
-        <p id="numbercard2">000</p>
-    </div>
-
-    <div class="information">
-        <form>
-            <label for="name"><h1>Cardholder Name</h1></label> 
-            <input type="text" id="name">
-                
-            <label for="cardnumber"><h1>Number</h1></label> 
-            <input type="text" id="cardnumber">
-
-            <label for="date"><h1>Exp. Date (MM/YY)</h1></label> 
-            <input type="text" id="date">
-
-            <label for="cvc"><h1>CVC</h1></label> 
-            <input type="text" id="cvc">
-
-            <input type="submit" value="Confirm">
-        </form>
-    </div>
-        
-        <div class="buttonconfirm">
-            <button id="buttonconfirm" class="buttonconfirm">Confirm</button>
+    <div class="card">
+        <div class="image">
+            <img id="image-bg" src="images/bg-main-desktop.png" alt="Imagem de fundo">
+            <img id="image-cardback" src="images/bg-card-back.png" alt="Card front">
+            <img id="image-cardfront" src="images/bg-card-front.png" alt="Card back">
         </div>
 
+        <div class="cardfront">
+            <p id="numbercard">0000 0000 0000 0000</p>
+            <p id="namecard">Jane Appleseed</p>
+            <p id="numbercardtwo">00/00</p>
+        </div>
+
+        <div class="cardback">
+            <p id="numbercard2">000</p>
+        </div>
     </div>
 
-    <div class="mensage">
-        <p id="mensage1">Thank you!</p>
-        <p id="mensage2">We've added your card details</p>
-    </div>
+    <main>
+        <fieldset class="information">
+            <form>
+                <label for="name"><h1>Cardholder Name</h1></label> 
+                <input type="text" id="name" required placeholder="e.g. Jane Appleseed">
+                    
+                <label for="cardnumber"><h1>Number</h1></label> 
+                <input type="number" id="cardnumber" required placeholder="e.g. 1234 5678 9123 0000">
 
-    <div class="buttoncontinue">
-        <button id="buttoncontinue" class="buttoncontinue">Continue</button>
-    </div>
-  
+                <label for="Exp."><h1>Exp. Date (MM/YY)</h1></label> 
+                <input type="number" id="month" required placeholder="MM">
+                <input type="number" id="year" required placeholder="YY">
 
+                <label for="cvc"><h1>CVC</h1></label> 
+                <input type="number" id="cvc" required placeholder="e.g. 123">
+
+                <div class="mensage">   
+
+                    <button onclick="funcao1('buttonconfirm')">Confirm</button>
+            
+                    <p id="mensage"></p>
+            
+                </div>
+            </form>
+        </fieldset>
+    </main>
+
+    <script src="js/main.js"></script>
 </body>
 </html>

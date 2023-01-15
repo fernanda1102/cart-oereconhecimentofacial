@@ -94,7 +94,7 @@ html {
     font-family: var(--font-family);
 }
 
-h1 { 
+form label h1 { 
     font-family: var(--font-family);
     color: var(--primary-color);
 }
@@ -104,23 +104,38 @@ p {
     color: var(--second-color);
 }
 
+.click {
+    font-family: var(--font-family);
+    color: var(--second-color);
+}
+
 main {
     width: 500px;
     margin: 0 auto;
 }
 
-.buttonconfirm {
-    display: inline-block;
-    vertical-align: top;
-    width: 15%;
-    text-align: center;
-    margin-left: 70%;
-    margin-top: -60%;
-    padding: 8px 15px;
+form {
+    margin: -220% 0;
+    margin-left: 100%;
+
+}
+
+form label {
+    display: block;
+    font-size: 15px;
+    margin: 0 0 10px;
+}
+
+form input {
+    display: block;
+    margin: 0 0 20px;
+    padding: 5px 25px;
+    width: -100%;
+}
+
+.mensage {
     border: 0;
     background: #251749;
     border-radius: 7px;
     color: var(--third-color);
 }
-
-
