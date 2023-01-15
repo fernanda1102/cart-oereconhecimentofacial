@@ -18,9 +18,10 @@ Projeto em desenvolvimento para interagir com o JavaScript, tendo um avanço par
 
 # 🛠️ Funcionalidades do projeto
 
-- `Funcionalidade 1`: Aumentar a força do robô
-- `Funcionalidade 2`: Diminuir a força do robô
-- `Funcionalidade 3`: Manipulando a força de acordo com as estatística fornecidas
+- `Funcionalidade 1`: Adicionar *nome* para cadastro para cartão
+- `Funcionalidade 2`: Adicionar *número* para cadastro para cartão
+- `Funcionalidade 3`: Adicionar *vencimento do cartão* para cadastro para cartão
+- `Funcionalidade 3`: Adicionar *código de segurança* para cadastro para cartão
 
 ![interface](https://user-images.githubusercontent.com/108702091/212561852-b53ba057-f7d6-4bce-b007-5e1ef6bb6b80.JPG)
 
@@ -31,7 +32,7 @@ Projeto em desenvolvimento para interagir com o JavaScript, tendo um avanço par
 
 # 🛠️ Abrir e rodar o projeto
 
-**Apresente as instruções necessárias para abrir e executar o projeto**
+**Cadastrar os dados necessários para efetuar o pagamento**
 
 # 🛠️ Processo de evolução do projeto
 
