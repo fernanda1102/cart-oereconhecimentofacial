@@ -15,54 +15,51 @@
         <img id="image-bg" src="images/bg-main-desktop.png">
         <img id="image-cardback" src="images/bg-card-back.png">
         <img id="image-cardfront" src="images/bg-card-front.png">
-
     </div>
 
-    <div class="card">
+    <div class="cardfront">
         <p id="numbercard">0000 0000 0000 0000</p>
         <p id="namecard">Jane Appleseed</p>
         <p id="numbercardtwo">00/00</p>
     </div>
 
-    <div class="cardfront">
+    <div class="cardback">
         <p id="numbercard2">000</p>
     </div>
 
     <div class="information">
-        <div class="name">
-            <h1>Cardholder Name</h1> 
-            <p>e.g. Jane Appleseed</p>
-        </div>
+        <form>
+            <label for="name"><h1>Cardholder Name</h1></label> 
+            <input type="text" id="name">
+                
+            <label for="cardnumber"><h1>Number</h1></label> 
+            <input type="text" id="cardnumber">
 
-        <div class="cardnumber">
-            <h1>Card Number</h1> 
-            <p>e.g. 1234 5678 9123 0000</p> 
-        </div>
+            <label for="date"><h1>Exp. Date (MM/YY)</h1></label> 
+            <input type="text" id="date">
 
-        <div class="date">
-          <h1>Exp. Date (MM/YY)</h1>
-          <p>MM</p>
-          <p>YY</p>
-        </div>
+            <label for="cvc"><h1>CVC</h1></label> 
+            <input type="text" id="cvc">
 
-        <div class="cvc">
-          <h1>CVC</h1>
-          <p>e.g. 123</p>
-        </div>
+            <input type="submit" value="Confirm">
+        </form>
+    </div>
         
         <div class="buttonconfirm">
-            <p id="buttonconfirm">Confirm</p>
+            <button id="buttonconfirm" class="buttonconfirm">Confirm</button>
         </div>
 
     </div>
+
     <div class="mensage">
         <p id="mensage1">Thank you!</p>
         <p id="mensage2">We've added your card details</p>
     </div>
 
     <div class="buttoncontinue">
-        <p id="buttoncontinue">Continue</p>
+        <button id="buttoncontinue" class="buttoncontinue">Continue</button>
     </div>
   
+
 </body>
 </html>
