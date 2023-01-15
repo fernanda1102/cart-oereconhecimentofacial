@@ -4,65 +4,65 @@
   
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="style.css">
   <title>Interactive card details form</title>
 
 </head>
 <body>
-  <div class="card">
-      <p id="numbercard">0000 0000 0000 0000</p>
-      <p id="namecard">Jane Appleseed</p>
-      <p>00/00</p>
-  </div>
 
-  <div class="cardfront">
-      <p id="numbercard2">000</p>
-  </div>
+    <div class="image">
+        <img id="image-bg" src="images/bg-main-desktop.png">
+        <img id="image-cardback" src="images/bg-card-back.png">
+        <img id="image-cardfront" src="images/bg-card-front.png">
 
-  <div class="name">
-      <p id="information">Cardholder Name</p> 
-      <p id="box">e.g. Jane Appleseed</p>
-  </div>
+    </div>
 
-  <div class="image">
-     
+    <div class="card">
+        <p id="numbercard">0000 0000 0000 0000</p>
+        <p id="namecard">Jane Appleseed</p>
+        <p id="numbercardtwo">00/00</p>
+    </div>
 
-  </div>
+    <div class="cardfront">
+        <p id="numbercard2">000</p>
+    </div>
 
-  <div class="cardnumber">
-      <p id="information">Card Number</p> 
-      <p id="box">e.g. 1234 5678 9123 0000</p> 
-  </div>
+    <div class="information">
+        <div class="name">
+            <h1>Cardholder Name</h1> 
+            <p>e.g. Jane Appleseed</p>
+        </div>
 
-  <div class="date">
-    <p id="informatiom">Exp. Date (MM/YY)</p>
-    <MM id="box">MM</p>
-    <p id="box">YY</p>
-  </div>
+        <div class="cardnumber">
+            <h1>Card Number</h1> 
+            <p>e.g. 1234 5678 9123 0000</p> 
+        </div>
 
-  <div class="cvc">
-    <p id="informatiom">CVC</p>
-    <e.g. id="box">e.g. 123</p>
-  </div>
+        <div class="date">
+          <h1>Exp. Date (MM/YY)</h1>
+          <p>MM</p>
+          <p>YY</p>
+        </div>
 
-  <div class="buttonconfirm">
-      <p id="buttonconfirm">Confirm</p>
-  </div>
+        <div class="cvc">
+          <h1>CVC</h1>
+          <p>e.g. 123</p>
+        </div>
+        
+        <div class="buttonconfirm">
+            <p id="buttonconfirm">Confirm</p>
+        </div>
 
-  <div class="mensage">
-      <p id="mensage1">Thank you!</p>
-      <p id="mensage2">We've added your card details</p>
-  </div>
+    </div>
+    <div class="mensage">
+        <p id="mensage1">Thank you!</p>
+        <p id="mensage2">We've added your card details</p>
+    </div>
 
-  <div class="buttoncontinue">
-      <p id="buttoncontinue">Continue</p>
-  </div>
+    <div class="buttoncontinue">
+        <p id="buttoncontinue">Continue</p>
+    </div>
   
-  <div class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-  </div>
 </body>
 </html>
