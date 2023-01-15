@@ -27,7 +27,7 @@ Projeto em desenvolvimento para interagir com o JavaScript, tendo um avanço par
 
 # 📁 Acesso ao projeto
 
-**Através do link:**
+**Através do link: https://fernanda1102.github.io/cartaoereconhecimentofacial/**
 
 # 🛠️ Abrir e rodar o projeto
 
