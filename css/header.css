@@ -1,0 +1,18 @@
+.bg-container {
+    display: flex;
+    position: static;
+}
+
+
+.image-cardback {
+    display: flex;
+    position: relative;
+    margin: -14em 5em ;
+}
+
+.image-cardfront {
+    display: flex;
+    position: relative;
+    margin: 9.5em 1em ;
+}
+
