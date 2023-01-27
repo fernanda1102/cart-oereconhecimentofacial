@@ -1,0 +1,22 @@
+form label h1 { 
+    color: var(--primary-color);
+}
+
+p {
+    color: var(--second-color);
+}
+
+.click {
+    color: var(--second-color);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin: 1em;
+}
+
+
+
+
+

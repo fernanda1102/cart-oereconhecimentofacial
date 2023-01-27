@@ -3,7 +3,6 @@
     position: static;
 }
 
-
 .image-cardback {
     display: flex;
     position: relative;
@@ -13,6 +12,30 @@
 .image-cardfront {
     display: flex;
     position: relative;
-    margin: 9.5em 1em ;
+    margin: 0.5em 1em ;
 }
+
+.number-card-back {
+    display: flex;
+    font-size: 13px;
+    position: relative;
+    margin-top: 9.7em;
+    margin-left: 22em;
+}
+
+.info-cardback-container {
+    color: var(--third-color);
+}
+
+.info-cardfront-container {
+    color: var(--third-color);
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    position: relative;
+    margin-top: -10em;
+    padding: 3em 2.5em;
+    gap: 1em 5em;
+}
+
 
